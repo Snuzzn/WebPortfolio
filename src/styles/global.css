@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-valhalla-blue text-gray-100;
+  }
+
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #0f0e1b #212237;
+  }
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #212237;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1a192c;
+  }
+
+  .name {
+    text-shadow: 1px 1px 3px #31cec5;
+  }
+}
+/* @apply bg-[#272A3E] text-gray-100; */
