@@ -2,10 +2,11 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { GlobeAltIcon } from "@heroicons/react/outline";
 import ReactPlayer from "react-player";
+import Fade from "react-reveal/Fade";
 
 function ProjectCard({ title, description, liveLink, techStack }) {
   return (
-    <>
+    <Fade>
       <div className="relative mb-10  flex flex-col  w-5/6 md:w-4/6 max-w-screen-lg">
         <div className="mt-4 mb-2  flex space-x-2 items-center ">
           <div className="font-light tracking-wide text-teal text-xl md:text-2xl mr-1">
@@ -46,7 +47,7 @@ function ProjectCard({ title, description, liveLink, techStack }) {
           {description}
         </div>
       </div>
-    </>
+    </Fade>
   );
 }
 

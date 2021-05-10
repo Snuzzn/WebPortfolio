@@ -62,7 +62,7 @@ function ContactForm({ setOpen }) {
         className="rounded-lg p-2 mt-1 mb-5 bg-clay border-gray-100 focus:outline-none focus:ring-1 focus:ring-teal focus:border-transparent shadow-md"
       />
       {!send ? (
-        <button className="rounded-lg p-2 mb-5 bg-teal-dark cursor-pointer">
+        <button className="rounded-lg p-2 mb-5 bg-teal-dark hover:bg-teal-lightDark cursor-pointer focus:outline-none focus:ring focus:ring-teal-light focus:ring-offset-2 focus:border-transparent shadow-md">
           <input
             type="submit"
             value="Send"

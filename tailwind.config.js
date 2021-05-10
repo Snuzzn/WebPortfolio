@@ -24,6 +24,7 @@ module.exports = {
         teal: {
           light: "#43F1E7",
           DEFAULT: "#57FFF5",
+          lightDark: "#3BDAD1",
           dark: "#31CEC5",
           xdark: "#1AA39A",
         },
