@@ -246,7 +246,7 @@ const particleConfig = (isTabletOrMobile) => ({
   motion: {
     disable: false,
     reduce: {
-      factor: isTabletOrMobile ? 7 : 4,
+      factor: isTabletOrMobile ? 14 : 4,
       value: true,
     },
   },
@@ -292,7 +292,7 @@ const particleConfig = (isTabletOrMobile) => ({
       },
     },
     color: {
-      value: isTabletOrMobile ? "ffffff" : "#84fff5",
+      value: "#84fff5",
       animation: {
         h: {
           count: 0,
