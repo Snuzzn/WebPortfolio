@@ -33,7 +33,7 @@ function Projects() {
           ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           ["Django", "https://www.djangoproject.com/"],
         ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/b09jq28hm4"
+        demoVidLink="https://sanojan99.wistia.com/medias/zeq00a7fs8"
       />
     </div>
   );
