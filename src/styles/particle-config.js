@@ -1,4 +1,4 @@
-const particlesConfig = {
+const particleConfig = (isTabletOrMobile) => ({
   autoPlay: true,
   background: {
     color: {
@@ -59,7 +59,7 @@ const particlesConfig = {
     },
     modes: {
       attract: {
-        distance: 200,
+        distance: isTabletOrMobile ? 50 : 200,
         duration: 0.4,
         speed: 1,
       },
@@ -111,7 +111,7 @@ const particlesConfig = {
         quantity: 2,
       },
       repulse: {
-        distance: 400,
+        distance: isTabletOrMobile ? 200 : 400,
         duration: 0.8,
         speed: 1,
       },
@@ -246,7 +246,7 @@ const particlesConfig = {
   motion: {
     disable: false,
     reduce: {
-      factor: 4,
+      factor: isTabletOrMobile ? 7 : 4,
       value: true,
     },
   },
@@ -292,7 +292,7 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#84fff5",
+      value: isTabletOrMobile ? "ffffff" : "#84fff5",
       animation: {
         h: {
           count: 0,
@@ -566,6 +566,6 @@ const particlesConfig = {
   pauseOnOutsideViewport: true,
   responsive: [],
   themes: [],
-};
+});
 
-export default particlesConfig;
+export default particleConfig;
