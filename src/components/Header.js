@@ -15,8 +15,8 @@ function Header() {
   return (
     <>
       <div className="flex flex-col items-center">
-        <nav className="w-5/6 md:w-screen fixed z-10  bg-valhalla-blue bg-opacity-95  ">
-          <div className="mt-3 mb-3 md:ml-6 space-x-5 flex flex-row  ">
+        <nav className="w-5/6 md:w-screen fixed z-10 bg-valhalla-blue bg-opacity-95  ">
+          <div className="mt-6 mb-3 md:ml-6 md:mt-4 space-x-5 flex flex-row  ">
             <HeaderItem
               title="GitHub"
               Icon={FaGithub}
