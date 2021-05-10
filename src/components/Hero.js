@@ -17,7 +17,7 @@ function Hero() {
       <div className="text-sm md:text-xl lg:text-3xl text-center font-light tracking-wider">
         UNSW Software Engineering Student
       </div>
-      <ScrollLink to="projects" smooth={true} duration={1000} offset={-75}>
+      <ScrollLink to="projects" smooth={true} duration={1000} offset={-85}>
         <ChevronDownIcon className="z-20 mt-4 h-7 w-7 animate-bounce hover:animate-none cursor-pointer" />
       </ScrollLink>
 

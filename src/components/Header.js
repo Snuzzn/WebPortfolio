@@ -12,27 +12,31 @@ function Header() {
   function openModal() {
     setOpen(true);
   }
+  const contact = true;
   return (
     <>
       <div className="flex flex-col items-center">
         <nav className="w-5/6 md:w-screen fixed z-10 bg-valhalla-blue bg-opacity-95  ">
-          <div className="mt-6 mb-3 md:ml-6 md:mt-4 space-x-5 flex flex-row  ">
-            <HeaderItem
-              title="GitHub"
-              Icon={FaGithub}
-              link="https://github.com/Snuzzn"
-            />
-            <HeaderItem
-              title="LinkedIn"
-              Icon={FaLinkedin}
-              link="https://www.linkedin.com/in/sanojan-thiyagaraja-13b05015b/"
-            />
-
-            <HiMailOpen
-              className="z-12 cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
-              size="3em"
-              onClick={openModal}
-            />
+          <div className="mt-6  md:ml-6 space-x-5 flex flex-row  ">
+            <a
+              href={"https://github.com/Snuzzn"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <HeaderItem title="GitHub" Icon={FaGithub} />
+            </a>
+            <a
+              href={
+                "https://www.linkedin.com/in/sanojan-thiyagaraja-13b05015b/"
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <HeaderItem title="LinkedIn" Icon={FaLinkedin} />
+            </a>
+            <div onClick={openModal}>
+              <HeaderItem title="Email" Icon={HiMailOpen} />
+            </div>
           </div>
         </nav>
       </div>
