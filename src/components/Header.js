@@ -14,28 +14,29 @@ function Header() {
   }
   return (
     <>
-      <nav className="fixed z-10 w-screen bg-valhalla-blue bg-opacity-95 ">
-        <div className="md:w-lg flex flex-row m-4 space-x-5">
-          <HeaderItem
-            title="GitHub"
-            Icon={FaGithub}
-            link="https://github.com/Snuzzn"
-          />
-          <HeaderItem
-            title="LinkedIn"
-            Icon={FaLinkedin}
-            link="https://www.linkedin.com/in/sanojan-thiyagaraja-13b05015b/"
-          />
-          {/* <HeaderItem title="Resume" Icon={RiFileList2Fill} link="" /> */}
+      <div className="flex flex-col items-center">
+        <nav className="w-5/6 md:w-screen fixed z-10  bg-valhalla-blue bg-opacity-95  ">
+          <div className="mt-3 mb-3 md:ml-6 space-x-5 flex flex-row  ">
+            <HeaderItem
+              title="GitHub"
+              Icon={FaGithub}
+              link="https://github.com/Snuzzn"
+            />
+            <HeaderItem
+              title="LinkedIn"
+              Icon={FaLinkedin}
+              link="https://www.linkedin.com/in/sanojan-thiyagaraja-13b05015b/"
+            />
 
-          <HiMailOpen
-            className="z-12 cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
-            size="3em"
-            onClick={openModal}
-          />
-        </div>
-        <Modal setOpen={setOpen} open={open} />
-      </nav>
+            <HiMailOpen
+              className="z-12 cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+              size="3em"
+              onClick={openModal}
+            />
+          </div>
+        </nav>
+      </div>
+      <Modal setOpen={setOpen} open={open} />
     </>
   );
 }

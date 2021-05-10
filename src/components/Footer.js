@@ -5,35 +5,35 @@ function Footer() {
     <div>
       <hr className="m-auto w-20 mt-5 border-teal" />
       <div className="flex justify-center mt-3 mb-4 ">
-        <span className="text-sm">Built using: </span>
-        &nbsp; &nbsp;
+        <span className="text-sm">Built using </span>
+        &nbsp;
         <a
           className="text-sm hover:text-teal"
           href="https://www.gatsbyjs.com/"
           target="_blank"
           rel="noreferrer"
         >
-          Gatsby
+          Gatsby ·
         </a>
-        &nbsp; &middot; &nbsp;
+        &nbsp;
         <a
           className="text-sm hover:text-teal"
           href="https://tailwindcss.com/"
           target="_blank"
           rel="noreferrer"
         >
-          Tailwind CSS
+          Tailwind CSS ·
         </a>
-        &nbsp; &middot; &nbsp;
+        &nbsp;
         <a
           className="text-sm hover:text-teal"
           href="https://particles.js.org/"
           target="_blank"
           rel="noreferrer"
         >
-          Particles.js
+          Particles.js ·
         </a>
-        &nbsp; &middot; &nbsp;
+        &nbsp;
         <a
           className="text-sm hover:text-teal"
           href="https://www.emailjs.com/"
