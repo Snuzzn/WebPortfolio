@@ -246,7 +246,7 @@ const particleConfig = (isMobile) => ({
   motion: {
     disable: false,
     reduce: {
-      factor: isMobile ? 14 : 4,
+      factor: isMobile ? 28 : 4,
       value: true,
     },
   },
