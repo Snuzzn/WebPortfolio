@@ -1,4 +1,4 @@
-const particleConfig = (isTabletOrMobile) => ({
+const particleConfig = (isMobile) => ({
   autoPlay: true,
   background: {
     color: {
@@ -59,7 +59,7 @@ const particleConfig = (isTabletOrMobile) => ({
     },
     modes: {
       attract: {
-        distance: isTabletOrMobile ? 50 : 200,
+        distance: isMobile ? 50 : 200,
         duration: 0.4,
         speed: 1,
       },
@@ -111,7 +111,7 @@ const particleConfig = (isTabletOrMobile) => ({
         quantity: 2,
       },
       repulse: {
-        distance: isTabletOrMobile ? 200 : 400,
+        distance: isMobile ? 200 : 400,
         duration: 0.8,
         speed: 1,
       },
@@ -246,7 +246,7 @@ const particleConfig = (isTabletOrMobile) => ({
   motion: {
     disable: false,
     reduce: {
-      factor: isTabletOrMobile ? 14 : 4,
+      factor: isMobile ? 14 : 4,
       value: true,
     },
   },
@@ -292,7 +292,7 @@ const particleConfig = (isTabletOrMobile) => ({
       },
     },
     color: {
-      value: "#84fff5",
+      value: isMobile ? "ffffff" : "#84fff5",
       animation: {
         h: {
           count: 0,
