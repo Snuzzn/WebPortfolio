@@ -6,6 +6,7 @@ import ParticlesBg from "../components/ParticlesBg";
 import favicon from "../images/favicon.ico";
 import { ToastContainer } from "react-toastify";
 import "../styles/global.css";
+import Footer from "../components/Footer";
 
 // markup
 const IndexPage = () => {
@@ -16,10 +17,9 @@ const IndexPage = () => {
         <link rel="icon" href={favicon} />
       </head>
       <Header />
-      <Hero className="flex justify-center" />
-      <div id="projects">
-        <Projects />
-      </div>
+      <Hero />
+      <Projects />
+      <Footer />
       <ParticlesBg />
       <ToastContainer />
     </main>

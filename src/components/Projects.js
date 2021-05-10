@@ -4,9 +4,9 @@ import Fade from "react-reveal/Fade";
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-center items-center transition-all">
+    <div className="flex flex-col items-center transition-all" id="projects">
       <Fade>
-        <div className="filter drop-shadow-xl mt-3 text-3xl md:text-4xl lg:text-5xl mb-7 md:mb-12 font-semibold">
+        <div className=" w-5/6 md:w-4/6 max-w-screen-lg mt-3 text-3xl md:text-4xl lg:text-5xl mb-3 md:mb-6 font-semibold filter drop-shadow-xl pb-3 border-b border-gray-600 border-b-1">
           Projects
         </div>
       </Fade>
