@@ -1,8 +1,9 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
-    <div>
+    <Fade>
       <hr className="m-auto w-20 mt-5 border-teal" />
       <div className="flex justify-center mt-3 mb-4 ">
         <span className="text-sm">Built using </span>
@@ -43,7 +44,7 @@ function Footer() {
           Email.js
         </a>
       </div>
-    </div>
+    </Fade>
   );
 }
 

@@ -23,6 +23,7 @@ function Projects() {
             "https://developers.google.com/maps/documentation/places/web-service/overview",
           ],
         ]}
+        demoVidLink="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
       />
       <ProjectCard
         title="Coordinate"
@@ -32,6 +33,7 @@ function Projects() {
           ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           ["Django", "https://www.djangoproject.com/"],
         ]}
+        demoVidLink="https://sanojan99.wistia.com/medias/b09jq28hm4"
       />
     </div>
   );

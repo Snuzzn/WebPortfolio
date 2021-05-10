@@ -4,7 +4,7 @@ import { GlobeAltIcon } from "@heroicons/react/outline";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 
-function ProjectCard({ title, description, liveLink, techStack }) {
+function ProjectCard({ title, description, liveLink, techStack, demoVidLink }) {
   return (
     <Fade>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
@@ -37,7 +37,7 @@ function ProjectCard({ title, description, liveLink, techStack }) {
             controls={true}
             width="100%"
             height="100%"
-            url="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
+            url={demoVidLink}
             style={{ position: "absolute", top: 0, left: 0 }}
             fallback="../public/tripCollabSS.png"
             loop={true}
