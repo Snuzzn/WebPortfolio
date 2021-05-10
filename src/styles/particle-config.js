@@ -37,7 +37,7 @@ const particleConfig = (isMobile) => ({
     detectsOn: "window",
     events: {
       onClick: {
-        enable: true,
+        enable: isMobile ? false : true,
         mode: "repulse",
       },
       onDiv: {
@@ -47,7 +47,7 @@ const particleConfig = (isMobile) => ({
         type: "circle",
       },
       onHover: {
-        enable: true,
+        enable: isMobile ? false : true,
         mode: "attract",
         parallax: {
           enable: false,
@@ -111,7 +111,7 @@ const particleConfig = (isMobile) => ({
         quantity: 2,
       },
       repulse: {
-        distance: isMobile ? 200 : 400,
+        distance: 400,
         duration: 0.8,
         speed: 1,
       },
@@ -246,7 +246,7 @@ const particleConfig = (isMobile) => ({
   motion: {
     disable: false,
     reduce: {
-      factor: isMobile ? 28 : 4,
+      factor: 4,
       value: true,
     },
   },
@@ -292,7 +292,7 @@ const particleConfig = (isMobile) => ({
       },
     },
     color: {
-      value: isMobile ? "ffffff" : "#84fff5",
+      value: "#84fff5",
       animation: {
         h: {
           count: 0,
@@ -425,7 +425,7 @@ const particleConfig = (isMobile) => ({
       },
       random: false,
       size: false,
-      speed: 2,
+      speed: isMobile ? 0.5 : 2,
       straight: false,
       trail: {
         enable: false,
