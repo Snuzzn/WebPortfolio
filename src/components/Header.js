@@ -12,7 +12,6 @@ function Header() {
   function openModal() {
     setOpen(true);
   }
-  const contact = true;
   return (
     <>
       <div className="flex flex-col items-center">

@@ -444,7 +444,7 @@ const particleConfig = (isMobile) => ({
         factor: 1000,
       },
       limit: 0,
-      value: 50,
+      value: 40,
     },
     opacity: {
       random: {
