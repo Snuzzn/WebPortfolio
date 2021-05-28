@@ -4,7 +4,14 @@ import { GlobeAltIcon } from "@heroicons/react/outline";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 
-function ProjectCard({ title, description, liveLink, techStack, demoVidLink }) {
+function ProjectCard({
+  title,
+  description,
+  liveLink,
+  techStack,
+  demoVidLink,
+  githubLink,
+}) {
   return (
     <Fade>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
@@ -12,10 +19,12 @@ function ProjectCard({ title, description, liveLink, techStack, demoVidLink }) {
           <div className="font-light tracking-wide text-teal text-xl md:text-2xl mr-1">
             {title}
           </div>
-          <FiGithub
-            size="1.5em"
-            className="cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
-          />
+          <a href={githubLink} target="_blank" rel="noreferrer">
+            <FiGithub
+              size="1.5em"
+              className="cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+            />
+          </a>
           <a href={liveLink} target="_blank" rel="noreferrer">
             <GlobeAltIcon className="w-7 cursor-pointer transform hover:-translate-y-2 transition-all duration-150" />
           </a>

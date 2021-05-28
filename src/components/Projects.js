@@ -11,6 +11,18 @@ function Projects() {
         </div>
       </Fade>
       <ProjectCard
+        title="Resonance"
+        description="An elegant bookmark manager that helps users keep track of content they consume on the web."
+        liveLink="https://resonance-bookmarks.vercel.app/"
+        techStack={[
+          ["Next.js", "https://nextjs.org/"],
+          ["Material UI", "https://material-ui.com/"],
+          ["MongoDB", "https://www.mongodb.com/"],
+        ]}
+        demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
+        githubLink="https://github.com/Snuzzn/Resonance"
+      />
+      <ProjectCard
         title="Trip Collab"
         description="A trip planner that lets groups decide on travel destinations and plan their schedules."
         liveLink="https://trip-collab.vercel.app"
@@ -24,6 +36,7 @@ function Projects() {
           ],
         ]}
         demoVidLink="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
+        githubLink="https://github.com/Snuzzn/TripCollabFrontend"
       />
       <ProjectCard
         title="Coordinate"
@@ -34,6 +47,7 @@ function Projects() {
           ["Django", "https://www.djangoproject.com/"],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/zeq00a7fs8"
+        githubLink="https://github.com/Snuzzn/Coordinate-Uni-Planner"
       />
     </div>
   );
