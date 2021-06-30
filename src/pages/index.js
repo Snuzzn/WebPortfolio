@@ -7,15 +7,20 @@ import favicon from "../images/favicon.ico";
 import { ToastContainer } from "react-toastify";
 import "../styles/global.css";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <head>
+      <Helmet>
         <title>Sanojan Thiyagaraja</title>
         <link rel="icon" href={favicon} />
-      </head>
+        <meta
+          name="description"
+          content="Sanojan Thiyagaraja | Software Engineering Student at UNSW"
+        />
+      </Helmet>
       <Header />
       <Hero />
       <Projects />
