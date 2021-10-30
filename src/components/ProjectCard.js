@@ -1,11 +1,17 @@
-import React from "react";
-import { FiGithub } from "react-icons/fi";
-import { GlobeAltIcon } from "@heroicons/react/outline";
-import ReactPlayer from "react-player";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { FaLaptopCode } from 'react-icons/fa';
+import { RiStackFill } from 'react-icons/ri';
+import { HiOutlineExternalLink } from 'react-icons/hi';
+import { GlobeAltIcon } from '@heroicons/react/outline';
+import ReactPlayer from 'react-player';
+import Fade from 'react-reveal/Fade';
+import Tooltip, { useTooltip, TooltipPopup } from '@reach/tooltip';
+import '@reach/tooltip/styles.css';
 
 function ProjectCard({
   title,
+  projectType,
   description,
   liveLink,
   techStack,
@@ -16,18 +22,37 @@ function ProjectCard({
     <Fade>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
         <div className="mt-4 mb-2  flex space-x-2 items-center ">
-          <div className="font-light tracking-wide text-teal text-xl md:text-2xl mr-1">
+          <Tooltip
+            label={projectType}
+            className="p-3 bg-gray-900 text-gray-100 border-none animate-fade "
+          >
+            <div>
+              {projectType === 'Frontend' ? (
+                <FaLaptopCode size="1.5em" className="text-gray-500 " />
+              ) : (
+                <RiStackFill size="1.5em" className="text-gray-500" />
+              )}
+            </div>
+          </Tooltip>
+          <div className="font-light tracking-wide text-teal text-xl md:text-2xl pr-1">
             {title}
           </div>
-          <a href={githubLink} target="_blank" rel="noreferrer">
-            <FiGithub
-              size="1.5em"
-              className="cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
-            />
-          </a>
-          <a href={liveLink} target="_blank" rel="noreferrer">
-            <GlobeAltIcon className="w-7 cursor-pointer transform hover:-translate-y-2 transition-all duration-150" />
-          </a>
+          {githubLink && (
+            <a href={githubLink} target="_blank" rel="noreferrer">
+              <FiGithub
+                size="1.4em"
+                className="cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+              />
+            </a>
+          )}
+          {liveLink && (
+            <a href={liveLink} target="_blank" rel="noreferrer">
+              <HiOutlineExternalLink
+                size="1.5em"
+                className=" cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+              />
+            </a>
+          )}
         </div>
         <div className="flex flex-row mb-4 space-x-2 md:space-x-3">
           {techStack.map((item) => (
@@ -41,13 +66,13 @@ function ProjectCard({
             </div>
           ))}
         </div>
-        <div style={{ position: "relative", paddingTop: "56.25%" }}>
+        <div style={{ position: 'relative', paddingTop: '56.25%' }}>
           <ReactPlayer
             controls={true}
             width="100%"
             height="100%"
             url={demoVidLink}
-            style={{ position: "absolute", top: 0, left: 0 }}
+            style={{ position: 'absolute', top: 0, left: 0 }}
             fallback="../public/tripCollabSS.png"
             loop={true}
           />

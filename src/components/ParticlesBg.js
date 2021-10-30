@@ -1,7 +1,7 @@
-import React from "react";
-import Particles from "react-particles-js";
-import ParticleConfig from "../styles/particle-config";
-import { isMobile } from "react-device-detect";
+import React from 'react';
+import Particles from 'react-particles-js';
+import ParticleConfig from '../styles/particle-config';
+import { isMobile } from 'react-device-detect';
 
 function ParticlesBg() {
   const [config, setConfig] = React.useState(ParticleConfig(isMobile));

@@ -1,6 +1,6 @@
-import React from "react";
-import ProjectCard from "./ProjectCard";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import ProjectCard from './ProjectCard';
+import Fade from 'react-reveal/Fade';
 
 function Projects() {
   return (
@@ -12,33 +12,35 @@ function Projects() {
       </Fade>
       <ProjectCard
         title="Resonance"
+        projectType="Full Stack"
         description="An elegant bookmark manager that helps users keep track of content they consume on the web."
         liveLink="https://resonance-bookmarks.vercel.app/"
         techStack={[
-          ["Next.js", "https://nextjs.org/"],
-          ["Material UI", "https://material-ui.com/"],
-          ["MongoDB", "https://www.mongodb.com/"],
+          ['Next.js', 'https://nextjs.org/'],
+          ['Material UI', 'https://material-ui.com/'],
+          ['MongoDB', 'https://www.mongodb.com/'],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
         githubLink="https://github.com/Snuzzn/Resonance"
       />
       <ProjectCard
         title="Trip Collab"
+        projectType="Frontend"
         description="A trip planner that lets groups decide on travel destinations and plan their schedules."
         liveLink="https://trip-collab.vercel.app"
         techStack={[
-          ["Next.js", "https://nextjs.org/"],
-          ["Chakra", "https://chakra-ui.com"],
-          ["Flask", "https://flask.palletsprojects.com/en/1.1.x/"],
+          ['Next.js', 'https://nextjs.org/'],
+          ['Chakra', 'https://chakra-ui.com'],
+          ['Flask', 'https://flask.palletsprojects.com/en/1.1.x/'],
           [
-            "Google Places API",
-            "https://developers.google.com/maps/documentation/places/web-service/overview",
+            'Google Places API',
+            'https://developers.google.com/maps/documentation/places/web-service/overview',
           ],
         ]}
         demoVidLink="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
         githubLink="https://github.com/Snuzzn/TripCollabFrontend"
       />
-      <ProjectCard
+      {/* <ProjectCard
         title="Coordinate"
         description="A university study planner that helps students stay organised throughout the term."
         liveLink="https://coordinate-planner.herokuapp.com"
@@ -48,6 +50,19 @@ function Projects() {
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/zeq00a7fs8"
         githubLink="https://github.com/Snuzzn/Coordinate-Uni-Planner"
+      /> */}
+      <ProjectCard
+        title="Slackr"
+        projectType="Frontend"
+        description="A team messenging app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
+        techStack={[
+          ['HTML / CSS', 'https://developer.mozilla.org/en-US/docs/Learn/HTML'],
+          [
+            'Javascript',
+            'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+          ],
+        ]}
+        demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
       />
     </div>
   );
