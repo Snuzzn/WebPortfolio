@@ -25,7 +25,7 @@ const IndexPage = () => {
       <Hero />
       <Projects />
       <Footer />
-      {/* <ParticlesBg /> */}
+      <ParticlesBg />
       <ToastContainer />
     </main>
   );

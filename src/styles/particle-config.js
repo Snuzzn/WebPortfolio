@@ -4,17 +4,17 @@ const particleConfig = (isMobile) => ({
     color: {
       // value: "#212841",
     },
-    image: "",
-    position: "",
-    repeat: "",
-    size: "",
+    image: '',
+    position: '',
+    repeat: '',
+    size: '',
     opacity: 1,
   },
   backgroundMask: {
-    composite: "destination-out",
+    composite: 'destination-out',
     cover: {
       color: {
-        value: "#fff",
+        value: '#fff',
       },
       opacity: 1,
     },
@@ -34,21 +34,21 @@ const particleConfig = (isMobile) => ({
     stages: [],
   },
   interactivity: {
-    detectsOn: "window",
+    detectsOn: 'window',
     events: {
       onClick: {
         enable: isMobile ? false : true,
-        mode: "repulse",
+        mode: 'repulse',
       },
       onDiv: {
         selectors: [],
         enable: false,
         mode: [],
-        type: "circle",
+        type: 'circle',
       },
       onHover: {
         enable: isMobile ? false : true,
-        mode: "attract",
+        mode: 'attract',
         parallax: {
           enable: false,
           force: 2,
@@ -89,17 +89,17 @@ const particleConfig = (isMobile) => ({
         area: {
           gradient: {
             start: {
-              value: "#ffffff",
+              value: '#ffffff',
             },
             stop: {
-              value: "#000000",
+              value: '#000000',
             },
           },
           radius: 1000,
         },
         shadow: {
           color: {
-            value: "#000000",
+            value: '#000000',
           },
           length: 2000,
         },
@@ -124,7 +124,7 @@ const particleConfig = (isMobile) => ({
         quantity: 5,
         particles: {
           color: {
-            value: "#ff0000",
+            value: '#ff0000',
             animation: {
               enable: true,
               speed: 400,
@@ -150,7 +150,7 @@ const particleConfig = (isMobile) => ({
           },
           move: {
             outModes: {
-              default: "destroy",
+              default: 'destroy',
             },
             speed: 2,
             angle: {},
@@ -172,8 +172,8 @@ const particleConfig = (isMobile) => ({
               speed: 5,
               minimumValue: 1,
               sync: true,
-              startValue: "min",
-              destroy: "max",
+              startValue: 'min',
+              destroy: 'max',
             },
             random: {},
           },
@@ -221,7 +221,7 @@ const particleConfig = (isMobile) => ({
           shape: {},
           stroke: {
             color: {
-              value: "",
+              value: '',
               animation: {
                 count: 0,
                 enable: false,
@@ -285,14 +285,14 @@ const particleConfig = (isMobile) => ({
         },
       },
       enable: true,
-      mode: "bounce",
+      mode: 'bounce',
       overlap: {
         enable: true,
         retries: 0,
       },
     },
     color: {
-      value: "#84fff5",
+      value: '#84fff5',
       animation: {
         h: {
           count: 0,
@@ -318,7 +318,7 @@ const particleConfig = (isMobile) => ({
       },
     },
     destroy: {
-      mode: "none",
+      mode: 'none',
       split: {
         count: 1,
         factor: {
@@ -362,7 +362,7 @@ const particleConfig = (isMobile) => ({
     links: {
       blink: false,
       color: {
-        value: "random",
+        value: 'random',
       },
       consent: false,
       distance: 100,
@@ -372,7 +372,7 @@ const particleConfig = (isMobile) => ({
       shadow: {
         blur: 5,
         color: {
-          value: "#00ff00",
+          value: '#00ff00',
         },
         enable: false,
       },
@@ -397,7 +397,7 @@ const particleConfig = (isMobile) => ({
       },
       decay: 0,
       distance: 0,
-      direction: "none",
+      direction: 'none',
       drift: 0,
       enable: true,
       gravity: {
@@ -417,21 +417,21 @@ const particleConfig = (isMobile) => ({
         enable: false,
       },
       outModes: {
-        default: "out",
-        bottom: "out",
-        left: "out",
-        right: "out",
-        top: "out",
+        default: 'out',
+        bottom: 'out',
+        left: 'out',
+        right: 'out',
+        top: 'out',
       },
       random: false,
       size: false,
-      speed: isMobile ? 0.5 : 2,
+      speed: isMobile ? 0.5 : 1,
       straight: false,
       trail: {
         enable: false,
         length: 10,
         fillColor: {
-          value: "#000000",
+          value: '#000000',
         },
       },
       vibrate: false,
@@ -441,7 +441,7 @@ const particleConfig = (isMobile) => ({
       density: {
         enable: true,
         area: 800,
-        factor: 1000,
+        factor: 2000,
       },
       limit: 0,
       value: 40,
@@ -460,9 +460,9 @@ const particleConfig = (isMobile) => ({
         enable: true,
         speed: 1,
         sync: false,
-        destroy: "none",
+        destroy: 'none',
         minimumValue: 0,
-        startValue: "random",
+        startValue: 'random',
       },
     },
     reduceDuplicates: true,
@@ -477,13 +477,13 @@ const particleConfig = (isMobile) => ({
         speed: 0,
         sync: false,
       },
-      direction: "clockwise",
+      direction: 'clockwise',
       path: false,
     },
     shadow: {
       blur: 0,
       color: {
-        value: "#000000",
+        value: '#000000',
       },
       enable: false,
       offset: {
@@ -496,7 +496,7 @@ const particleConfig = (isMobile) => ({
         image: [null],
         images: [null],
       },
-      type: "circle",
+      type: 'circle',
     },
     size: {
       random: {
@@ -512,15 +512,15 @@ const particleConfig = (isMobile) => ({
         enable: true,
         speed: 3,
         sync: false,
-        destroy: "none",
+        destroy: 'none',
         minimumValue: 1,
-        startValue: "random",
+        startValue: 'random',
       },
     },
     stroke: {
       width: 0,
       color: {
-        value: "",
+        value: '',
         animation: {
           h: {
             count: 0,
@@ -557,7 +557,7 @@ const particleConfig = (isMobile) => ({
         frequency: 0.05,
         opacity: 1,
         color: {
-          value: "#000000",
+          value: '#000000',
         },
       },
     },
