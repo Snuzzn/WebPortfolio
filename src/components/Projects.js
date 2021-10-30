@@ -61,6 +61,7 @@ function Projects() {
             'Javascript',
             'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
           ],
+          ['Bulma', 'https://bulma.io/'],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
       />

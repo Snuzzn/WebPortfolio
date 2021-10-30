@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll';
 function Hero() {
   return (
     <div className="flex flex-col h-screen justify-center items-center transition-all">
-      <div className="mb-2 md:mb-6">
+      <div className="mb-2 md:mb-6  ">
         <span className="font-semibold text-5xl filter drop-shadow-xl sm:text-7xl lg:text-9xl">
           Hi, I'm&nbsp;
         </span>
@@ -13,10 +13,10 @@ function Hero() {
           Sano
         </span>
       </div>
-
       <div className="text-sm md:text-xl lg:text-3xl text-center font-light tracking-wider">
-        UNSW Software Engineering Student
+        UNSW Computer Science Student
       </div>
+
       <ScrollLink to="projects" smooth={true} duration={1000} offset={-85}>
         <ChevronDownIcon className="z-20 mt-4 h-7 w-7 animate-bounce hover:animate-none cursor-pointer" />
       </ScrollLink>
