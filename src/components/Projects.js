@@ -65,9 +65,10 @@ function Projects() {
         projectType="Frontend"
         description="A team messenging app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
         techStack={[
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
+          ["HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
+          ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
           [
-            "Javascript",
+            "Vanilla Javascript",
             "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           ],
           ["Bulma", "https://bulma.io/"],
