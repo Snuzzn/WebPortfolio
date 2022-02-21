@@ -65,15 +65,30 @@ function Projects() {
         projectType="Frontend"
         description="A team messenging app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
         techStack={[
-          ["HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
-          ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
+          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           [
-            "Vanilla Javascript",
+            "Javascript",
             "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           ],
           ["Bulma", "https://bulma.io/"],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
+      />
+      <ProjectCard
+        title="AR Illuminate Gallery"
+        projectType="Frontend"
+        description="An AR gallery of past projects built by UNSW Illuminate (for Sydney's Vivid festivals), to give individuals a sense of how they would have looked like in real life."
+        techStack={[
+          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
+          [
+            "Javascript",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          ],
+          ["WebXR", "https://immersive-web.github.io/"],
+          ["Three.js", "https://threejs.org/"],
+        ]}
+        demoVidLink="https://unswilluminate.wistia.com/medias/9bi8qf89lz"
+        liveLink="https://illuminate-ar-gallery.netlify.app/"
       />
     </div>
   );
