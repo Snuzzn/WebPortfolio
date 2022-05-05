@@ -1,6 +1,6 @@
-import React from 'react';
-import { ChevronDownIcon } from '@heroicons/react/outline';
-import { Link as ScrollLink } from 'react-scroll';
+import React from "react";
+import { ChevronDownIcon } from "@heroicons/react/outline";
+import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
   return (
@@ -9,8 +9,13 @@ function Hero() {
         <span className="font-semibold text-5xl filter drop-shadow-xl sm:text-7xl lg:text-9xl">
           Hi, I'm&nbsp;
         </span>
-        <span className="font-semibold name text-teal  text-5xl sm:text-7xl lg:text-9xl">
-          Sano
+        <span className="inline-block relative">
+          <span className="absolute top-0 left-0 filter blur-xs  animate-pulse duration-300 font-semibold name text-teal  text-5xl sm:text-7xl lg:text-9xl">
+            Sano
+          </span>
+          <span className="font-semibold name text-teal  text-5xl sm:text-7xl lg:text-9xl">
+            Sano
+          </span>
         </span>
       </div>
       <div className="text-sm md:text-xl lg:text-3xl text-center font-light tracking-wider">

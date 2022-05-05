@@ -17,30 +17,19 @@ function Projects() {
         liveLink="https://resonance-bookmarks.vercel.app/"
         techStack={[
           ["Next.js", "https://nextjs.org/"],
-          ["Material UI", "https://material-ui.com/"],
           ["MongoDB", "https://www.mongodb.com/"],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
         githubLink="https://github.com/Snuzzn/Resonance"
       />
-      <ProjectCard
-        title="AirBrB"
-        projectType="Frontend"
-        description="A lodging marketplace inspired by Airbnb, to help people host and book accomodation."
-        techStack={[
-          ["React", "https://reactjs.org/"],
-          ["Tailwind CSS", "https://tailwindcss.com/"],
-        ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/k6l3kts83n"
-      />
-      <ProjectCard
+
+      {/* <ProjectCard
         title="Trip Collab"
         projectType="Frontend"
         description="A trip planner that lets groups decide on travel destinations and plan their schedules."
         liveLink="https://trip-collab.vercel.app"
         techStack={[
           ["Next.js", "https://nextjs.org/"],
-          ["Chakra", "https://chakra-ui.com"],
           [
             "Google Places API",
             "https://developers.google.com/maps/documentation/places/web-service/overview",
@@ -48,7 +37,7 @@ function Projects() {
         ]}
         demoVidLink="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
         githubLink="https://github.com/Snuzzn/TripCollabFrontend"
-      />
+      /> */}
       {/* <ProjectCard
         title="Coordinate"
         description="A university study planner that helps students stay organised throughout the term."
@@ -61,19 +50,17 @@ function Projects() {
         githubLink="https://github.com/Snuzzn/Coordinate-Uni-Planner"
       /> */}
       <ProjectCard
-        title="Slackr"
+        title="Orderly"
         projectType="Frontend"
-        description="A team messenging app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
+        description="A contactless table ordering and wait management system that streamlines restaurant operations."
         techStack={[
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
-          [
-            "Javascript",
-            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-          ],
-          ["Bulma", "https://bulma.io/"],
+          ["React", "https://reactjs.org/"],
+          ["SocketIO", "https://socket.io/"],
+          ["PropelAuth", "https://www.propelauth.com/"],
         ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
+        demoVidLink="https://z5207855.wistia.com/medias/zdhn5hx3nk"
       />
+
       <ProjectCard
         title="AR Illuminate Gallery"
         projectType="Frontend"
@@ -89,6 +76,26 @@ function Projects() {
         ]}
         demoVidLink="https://unswilluminate.wistia.com/medias/9bi8qf89lz"
         liveLink="https://illuminate-ar-gallery.netlify.app/"
+      />
+      <ProjectCard
+        title="AirBrB"
+        projectType="Frontend"
+        description="A lodging marketplace inspired by Airbnb, to help people host and book accomodation."
+        techStack={[["React", "https://reactjs.org/"]]}
+        demoVidLink="https://sanojan99.wistia.com/medias/k6l3kts83n"
+      />
+      <ProjectCard
+        title="Slackr"
+        projectType="Frontend"
+        description="A team messenging web app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
+        techStack={[
+          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
+          [
+            "Javascript",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          ],
+        ]}
+        demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
       />
     </div>
   );
