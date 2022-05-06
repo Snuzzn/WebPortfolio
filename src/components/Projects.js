@@ -55,7 +55,7 @@ function Projects() {
         description="A contactless table ordering and wait management system that streamlines restaurant operations."
         techStack={[
           ["React", "https://reactjs.org/"],
-          ["SocketIO", "https://socket.io/"],
+          ["Socket.IO", "https://socket.io/"],
           ["PropelAuth", "https://www.propelauth.com/"],
         ]}
         demoVidLink="https://z5207855.wistia.com/medias/zdhn5hx3nk"
