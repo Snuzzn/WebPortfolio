@@ -9,6 +9,7 @@ function ContactForm({ setOpen }) {
   function closeModal() {
     setOpen(false);
   }
+  console.log(process.env.GATSBY_EMAILJS_USERID);
   function sendEmail(e) {
     e.preventDefault();
     setSend(true);

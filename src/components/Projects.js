@@ -16,6 +16,10 @@ function Projects() {
         description="An elegant bookmark manager that helps users keep track of content they consume on the web."
         liveLink="https://resonance-bookmarks.vercel.app/"
         techStack={[
+          [
+            "JavaScript",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          ],
           ["Next.js", "https://nextjs.org/"],
           ["MongoDB", "https://www.mongodb.com/"],
         ]}
@@ -54,6 +58,7 @@ function Projects() {
         projectType="Frontend"
         description="A contactless table ordering and wait management system that streamlines restaurant operations."
         techStack={[
+          ["TypeScript", "https://www.typescriptlang.org/"],
           ["React", "https://reactjs.org/"],
           ["Socket.IO", "https://socket.io/"],
           ["PropelAuth", "https://www.propelauth.com/"],
@@ -66,11 +71,11 @@ function Projects() {
         projectType="Frontend"
         description="An AR gallery of past projects built by UNSW Illuminate (for Sydney's Vivid festivals), to give individuals a sense of how they would have looked like in real life."
         techStack={[
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           [
-            "Javascript",
+            "JavaScript",
             "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           ],
+          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           ["WebXR", "https://immersive-web.github.io/"],
           ["Three.js", "https://threejs.org/"],
         ]}
@@ -81,7 +86,13 @@ function Projects() {
         title="AirBrB"
         projectType="Frontend"
         description="A lodging marketplace inspired by Airbnb, to help people host and book accomodation."
-        techStack={[["React", "https://reactjs.org/"]]}
+        techStack={[
+          [
+            "JavaScript",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          ],
+          ["React", "https://reactjs.org/"],
+        ]}
         demoVidLink="https://sanojan99.wistia.com/medias/k6l3kts83n"
       />
       <ProjectCard
@@ -89,11 +100,11 @@ function Projects() {
         projectType="Frontend"
         description="A team messenging web app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
         techStack={[
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
           [
-            "Javascript",
+            "JavaScript",
             "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           ],
+          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
       />
