@@ -1,54 +1,26 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Web Portfolio 
 
-## 🚀 Quick start
+Welcome to my web portfolio! I'm a web developer with a Bachelor's degree in Computer Science at UNSW. During my time in university, I developed a strong passion for frontend web development. I had the opportunity to work on many personal and team projects involving web design and development.
 
-1.  **Create a Gatsby site.**
+I'm particularly interested in creating user-friendly and visually captivating web apps that provide a great user experience. I believe that good frontend design is essential for making software that people geninuely love to use.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+In this portfolio, you'll find a collection of my recent projects that showcase my proficiency in HTML, CSS, JavaScript, and other technologies. I'm constantly learning and broadening my skillset to stay up-to-date with the latest trends and technologies in the web development industry.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+The website is live [here](https://www.sanojan.com/). It was built with React/Gatsby and Tailwind CSS for styling. 
 
-2.  **Start developing.**
+## Skills
+I have experience in various web development tools and frameworks including:
 
-    Navigate into your new site’s directory and start it up.
+- HTML, CSS, and JavaScript
+- React, Next, Gatsby
+- Node.js
+- Python/Flask
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
 
-3.  **Open the code and start customizing!**
+## Contact
+If you have any questions or would like to discuss a project, please feel free to contact me using the options below:
 
-    Your site is now running at http://localhost:8000!
+Email: sanojan99@gmail.com
+LinkedIn: [Sanojan Thiyagaraja | LinkedIn](https://www.linkedin.com/in/sanojan-thiyagaraja-13b05015b/)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
