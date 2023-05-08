@@ -19,7 +19,7 @@ function Hero() {
         </span>
       </div>
       <div className="text-sm md:text-xl lg:text-3xl text-center font-light tracking-wider">
-        Web Developer
+        Software Engineer
       </div>
 
       <ScrollLink to="projects" smooth={true} duration={1000} offset={-85}>
