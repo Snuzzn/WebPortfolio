@@ -13,7 +13,7 @@ function Projects() {
       <ProjectCard
         title="Resonance"
         projectType="Full Stack"
-        description="An elegant bookmark manager that helps users keep track of content they consume on the web."
+        description="An intuitive bookmark manager that helps users organise and log content consumed on the web for easy access in the future."
         liveLink="https://resonance-bookmarks.vercel.app/"
         techStack={[
           [
@@ -26,37 +26,10 @@ function Projects() {
         demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
         githubLink="https://github.com/Snuzzn/Resonance"
       />
-
-      {/* <ProjectCard
-        title="Trip Collab"
-        projectType="Frontend"
-        description="A trip planner that lets groups decide on travel destinations and plan their schedules."
-        liveLink="https://trip-collab.vercel.app"
-        techStack={[
-          ["Next.js", "https://nextjs.org/"],
-          [
-            "Google Places API",
-            "https://developers.google.com/maps/documentation/places/web-service/overview",
-          ],
-        ]}
-        demoVidLink="https://teammongoose2seng2021.wistia.com/medias/13jgog1ept"
-        githubLink="https://github.com/Snuzzn/TripCollabFrontend"
-      /> */}
-      {/* <ProjectCard
-        title="Coordinate"
-        description="A university study planner that helps students stay organised throughout the term."
-        liveLink="https://coordinate-planner.herokuapp.com"
-        techStack={[
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
-          ["Django", "https://www.djangoproject.com/"],
-        ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/zeq00a7fs8"
-        githubLink="https://github.com/Snuzzn/Coordinate-Uni-Planner"
-      /> */}
       <ProjectCard
         title="Orderly"
-        projectType="Frontend"
-        description="A contactless table ordering and wait management system that streamlines restaurant operations."
+        projectType="Full Stack"
+        description="A table ordering system that helps streamline restaurant operations for workers and improves the dining experience for customers."
         techStack={[
           ["TypeScript", "https://www.typescriptlang.org/"],
           ["React", "https://reactjs.org/"],
@@ -64,12 +37,13 @@ function Projects() {
           ["PropelAuth", "https://www.propelauth.com/"],
         ]}
         demoVidLink="https://z5207855.wistia.com/medias/zdhn5hx3nk"
+        githubLink="https://github.com/Snuzzn/Orderly"
       />
 
       <ProjectCard
-        title="AR Illuminate Gallery"
+        title="Illuminate AR Gallery"
         projectType="Frontend"
-        description="An AR gallery of past projects built by UNSW Illuminate (for Sydney's Vivid festivals), to give individuals a sense of how they would have looked like in real life."
+        description="An AR web app that lets users visualise light projects built by UNSW Illuminate for Sydney's Vivid festivals, on their mobile device."
         techStack={[
           [
             "JavaScript",
@@ -85,7 +59,7 @@ function Projects() {
       <ProjectCard
         title="AirBrB"
         projectType="Frontend"
-        description="A lodging marketplace inspired by Airbnb, to help people host and book accomodation."
+        description="A lodging marketplace, inspired by Airbnb, to help people host and book accommodation."
         techStack={[
           [
             "JavaScript",
@@ -94,6 +68,7 @@ function Projects() {
           ["React", "https://reactjs.org/"],
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/k6l3kts83n"
+        githubLink="https://github.com/Snuzzn/AirBrB"
       />
       <ProjectCard
         title="Slackr"
