@@ -11,22 +11,6 @@ function Projects() {
         </div>
       </Fade>
       <ProjectCard
-        title="Resonance"
-        projectType="Full Stack"
-        description="An intuitive bookmark manager that helps users organise and log content consumed on the web for easy access in the future."
-        liveLink="https://resonance-bookmarks.vercel.app/"
-        techStack={[
-          [
-            "JavaScript",
-            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-          ],
-          ["Next.js", "https://nextjs.org/"],
-          ["MongoDB", "https://www.mongodb.com/"],
-        ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
-        githubLink="https://github.com/Snuzzn/Resonance"
-      />
-      <ProjectCard
         title="Orderly"
         projectType="Full Stack"
         description="A table ordering system that helps streamline restaurant operations for workers and improves the dining experience for customers."
@@ -39,7 +23,31 @@ function Projects() {
         demoVidLink="https://z5207855.wistia.com/medias/zdhn5hx3nk"
         githubLink="https://github.com/Snuzzn/Orderly"
       />
-
+      <ProjectCard
+        title="Resonance"
+        projectType="Full Stack"
+        description="An intuitive bookmark manager that helps users organise and log content consumed on the web for easy access in the future."
+        liveLink="https://resonance-bookmarks.vercel.app/"
+        techStack={[
+          ["React", "https://reactjs.org/"],
+          ["Next.js", "https://nextjs.org/"],
+          ["MongoDB", "https://www.mongodb.com/"],
+        ]}
+        demoVidLink="https://sanojan99.wistia.com/medias/rhnyvk1olq"
+        githubLink="https://github.com/Snuzzn/Resonance"
+      />
+      <ProjectCard
+        title="Explore React"
+        projectType="Frontend"
+        description="An educational resource aimed at exploring the fundamentals of React using interactive examples and practical applications in mini-projects."
+        techStack={[
+          ["React", "https://reactjs.org/"],
+          ["Next.js", "https://nextjs.org/"],
+        ]}
+        demoVidLink="https://sanojan99-1.wistia.com/medias/31x03rh4sk"
+        liveLink="https://explore-react.vercel.app/"
+        githubLink="https://github.com/Snuzzn/explore-react"
+      />
       <ProjectCard
         title="Illuminate AR Gallery"
         projectType="Frontend"
@@ -69,19 +77,6 @@ function Projects() {
         ]}
         demoVidLink="https://sanojan99.wistia.com/medias/k6l3kts83n"
         githubLink="https://github.com/Snuzzn/AirBrB"
-      />
-      <ProjectCard
-        title="Slackr"
-        projectType="Frontend"
-        description="A team messenging web app, inspired by Slack and Messenger, to help existing groups connect or find new ones. "
-        techStack={[
-          [
-            "JavaScript",
-            "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-          ],
-          ["HTML / CSS", "https://developer.mozilla.org/en-US/docs/Learn/HTML"],
-        ]}
-        demoVidLink="https://sanojan99.wistia.com/medias/mkfall54ff"
       />
     </div>
   );
