@@ -11,10 +11,10 @@ function Hero() {
         </span>
         <span className="inline-block relative">
           <span className="absolute top-0 left-0 filter blur-xs  animate-pulse duration-300 font-semibold name text-teal  text-5xl sm:text-7xl lg:text-9xl">
-            Sano
+            Sanojan
           </span>
           <span className="font-semibold name text-teal  text-5xl sm:text-7xl lg:text-9xl">
-            Sano
+            Sanojan
           </span>
         </span>
       </div>
