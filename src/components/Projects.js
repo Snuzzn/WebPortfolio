@@ -94,17 +94,31 @@ function Projects() {
       ) : (
         <>
           <ProjectCard
+            title="Circles"
+            projectType="Full Stack"
+            description="An interactive degree planner and UNSW Handbook alternative to help students browse and organisae courses more effectively."
+            techStack={[
+              ["React", "https://reactjs.org/"],
+              ["Ant Design", "https://ant.design/"],
+              ["Python", "https://www.python.org/"],
+              ["FastAPI", "https://fastapi.tiangolo.com/lo/"],
+              ["MongoDB", "https://www.mongodb.com/"],
+            ]}
+            demoVidLink="https://sanojan99-1.wistia.com/medias/aja131vepz"
+            githubLink="https://github.com/csesoc/Circles"
+          />
+          <ProjectCard
             title="Illuminate AR Gallery"
             projectType="Frontend"
             description="An AR web app that lets users visualise light projects built by UNSW Illuminate for Sydney's Vivid festivals, on their mobile device."
             techStack={[
               [
-                "JavaScript",
-                "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-              ],
-              [
                 "HTML / CSS",
                 "https://developer.mozilla.org/en-US/docs/Learn/HTML",
+              ],
+              [
+                "JavaScript",
+                "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
               ],
               ["WebXR", "https://immersive-web.github.io/"],
               ["Three.js", "https://threejs.org/"],
