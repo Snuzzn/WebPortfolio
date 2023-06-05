@@ -41,7 +41,7 @@ function Projects() {
           <ProjectCard
             title="Orderly"
             projectType="Full Stack"
-            description="A table ordering system that helps streamline restaurant operations for workers and improves the dining experience for customers."
+            description="A table ordering system that helps streamline restaurant operations for workers and improve  the dining experience for customers."
             techStack={[
               ["TypeScript", "https://www.typescriptlang.org/"],
               ["React", "https://reactjs.org/"],
@@ -96,7 +96,7 @@ function Projects() {
           <ProjectCard
             title="Circles"
             projectType="Full Stack"
-            description="An interactive degree planner and UNSW Handbook alternative to help students browse and organisae courses more effectively."
+            description="An interactive degree planner and UNSW Handbook alternative to help students browse and organise courses more effectively."
             techStack={[
               ["React", "https://reactjs.org/"],
               ["Ant Design", "https://ant.design/"],
@@ -106,6 +106,17 @@ function Projects() {
             ]}
             demoVidLink="https://sanojan99-1.wistia.com/medias/aja131vepz"
             githubLink="https://github.com/csesoc/Circles"
+          />
+          <ProjectCard
+            title="UNSW Illuminate"
+            projectType="Frontend"
+            description="A student society website featuring a hover-panning project gallery, showcasing the diverse, multidisciplinary light projects created at UNSW Illuminate."
+            techStack={[
+              ["React", "https://reactjs.org/"],
+              ["Gatsby", "https://www.gatsbyjs.com/"],
+              ["Sanity", "https://www.sanity.io/"],
+            ]}
+            demoVidLink="https://sanojan99-1.wistia.com/medias/kjsdubj81v"
           />
           <ProjectCard
             title="Illuminate AR Gallery"
