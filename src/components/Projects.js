@@ -106,6 +106,7 @@ function Projects() {
             ]}
             demoVidLink="https://sanojan99-1.wistia.com/medias/aja131vepz"
             githubLink="https://github.com/csesoc/Circles"
+            liveLink="https://circles.csesoc.app/"
           />
           <ProjectCard
             title="UNSW Illuminate"
@@ -117,6 +118,7 @@ function Projects() {
               ["Sanity", "https://www.sanity.io/"],
             ]}
             demoVidLink="https://sanojan99-1.wistia.com/medias/kjsdubj81v"
+            liveLink="https://www.unswilluminate.com/"
           />
           <ProjectCard
             title="Illuminate AR Gallery"
