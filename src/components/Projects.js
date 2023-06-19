@@ -39,6 +39,21 @@ function Projects() {
       {isPersonal ? (
         <>
           <ProjectCard
+            title="TutorWiz (WIP)"
+            projectType="Full Stack"
+            description="An AI-powered math tutor that helps school students in a friendly manner, offering beautifully presented math explanations for their questions."
+            techStack={[
+              ["React", "https://reactjs.org/"],
+              ["FastAPI", "https://fastapi.tiangolo.com/lo/"],
+              ["DynamoDB", "https://aws.amazon.com/dynamodb/"],
+              [
+                "ChatGPT",
+                "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
+              ],
+            ]}
+            demoVidLink="https://sanojan99-1.wistia.com/medias/we24rbdaxh"
+          />
+          <ProjectCard
             title="Orderly"
             projectType="Full Stack"
             description="A table ordering system that helps streamline restaurant operations for workers and improve  the dining experience for customers."
