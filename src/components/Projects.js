@@ -18,17 +18,14 @@ function Projects() {
           </div>
           <div className="flex flex-col md:flex-row gap-3 p-2 md:gap-4 border-valhalla-light md:border-2 rounded-md ">
             <button
-              className={`transition ease-in p-2 rounded-md w-24 text-center md:block  ${
-                isPersonal ? "bg-blue-600" : "hidden"
-              }`}
+              className={`transition ease-in p-2 rounded-md w-24 text-center md:block w-full  ${
+                isPersonal && "bg-blue-600"}`} 
               onClick={handleToggle}
             >
               Personal
             </button>
             <button
-              className={`${
-                !isPersonal ? "bg-blue-600" : "hidden"
-              } transition ease-in p-2 rounded-md w-32 text-center md:block `}
+              className={`${!isPersonal && "bg-blue-600"} transition ease-in p-2 rounded-md w-32 text-center md:block `}
               onClick={handleToggle}
             >
               Collaborative
@@ -39,19 +36,20 @@ function Projects() {
       {isPersonal ? (
         <>
           <ProjectCard
-            title="TutorWiz (WIP)"
+            title="TutorKeep"
             projectType="Full Stack"
             description="An AI-powered math tutor that helps school students in a friendly manner, offering beautifully presented math explanations for their questions."
             techStack={[
               ["React", "https://reactjs.org/"],
               ["FastAPI", "https://fastapi.tiangolo.com/lo/"],
-              ["DynamoDB", "https://aws.amazon.com/dynamodb/"],
+              ["MongoDB", "https://www.mongodb.com/"],
               [
                 "ChatGPT",
                 "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
               ],
             ]}
-            demoVidLink="https://sanojan99-1.wistia.com/medias/we24rbdaxh"
+            demoVidLink="https://tutorable.s3.ap-southeast-2.amazonaws.com/demo.mp4"
+            liveLink="https://tutorkeep.com/"
           />
           <ProjectCard
             title="Orderly"
