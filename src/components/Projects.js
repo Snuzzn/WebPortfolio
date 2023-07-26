@@ -41,6 +41,7 @@ function Projects() {
             description="An AI-powered math tutor that helps school students in a friendly manner, offering beautifully presented math explanations for their questions."
             techStack={[
               ["React", "https://reactjs.org/"],
+              ["Redux", "https://react-redux.js.org/"],
               ["FastAPI", "https://fastapi.tiangolo.com/lo/"],
               ["MongoDB", "https://www.mongodb.com/"],
               [
@@ -48,8 +49,8 @@ function Projects() {
                 "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
               ],
             ]}
-            demoVidLink="https://tutorable.s3.ap-southeast-2.amazonaws.com/demo.mp4"
-            liveLink="https://tutorkeep.com/"
+            demoVidLink="https://tutorable.s3.ap-southeast-2.amazonaws.com/tutorkeep+demo+vid.mp4"
+            liveLink="https://tutorkeep.com"
           />
           <ProjectCard
             title="Orderly"
