@@ -49,7 +49,7 @@ function Projects() {
                 "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
               ],
             ]}
-            demoVidLink="https://tutorable.s3.ap-southeast-2.amazonaws.com/tutorkeep+demo+vid.mp4"
+            demoVidLink="https://tutorable.s3.ap-southeast-2.amazonaws.com/tutorkeep+screenshot+video.mp4"
             liveLink="https://tutorkeep.com"
           />
           <ProjectCard
