@@ -8,12 +8,16 @@ export default function ThemeContextProvider({ children }) {
   const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
+      document.documentElement.style.colorScheme = "dark"; 
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
+
     } else {
+      document.documentElement.style.colorScheme = "light"; 
       setTheme("light");
       window.localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
+
     }
   };
 
