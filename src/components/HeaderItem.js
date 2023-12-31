@@ -6,7 +6,7 @@ function HeaderItem({ title, Icon, link }) {
         className="transform hover:-translate-y-2 transition-all duration-150 z-12"
         size="2.5em"
       />
-      <div className="opacity-0 group-hover:opacity-100 transition-all duration-150">
+      <div className="opacity-0 group-hover:opacity-100 -mt-2 transition-all duration-150">
         {title}
       </div>
     </div>

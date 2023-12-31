@@ -3,6 +3,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useRef } from "react";
 import ContactForm from "./ContactForm";
 import { BiMailSend } from "react-icons/bi";
+import { MdClose } from "react-icons/md";
 
 function Modal({ setOpen, open }) {
   function closeModal() {
@@ -21,7 +22,9 @@ function Modal({ setOpen, open }) {
           open={open}
           onClose={closeModal}
         >
-          <div className="min-h-screen px-4 text-center ">
+       
+          <div className=" min-h-screen px-4 text-center ">
+          
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -53,8 +56,11 @@ function Modal({ setOpen, open }) {
               leaveTo="opacity-0 scale-95"
             >
               <div
-                className="bg-white inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl dark:bg-gray-900"
+                className="relative bg-white inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl dark:bg-gray-900"
               >
+                <button className="absolute top-4 right-4 text-white" onClick={closeModal}>
+                  <MdClose size="1.3em"/>
+                </button>
                 <div className="flex items-center space-x-2">
                   <BiMailSend size="1.5em" />
                   <Dialog.Title
@@ -68,7 +74,7 @@ function Modal({ setOpen, open }) {
                 <ContactForm setOpen={setOpen} />
                 <p className="text-sm text-gray-500">
                   You can also email me at &nbsp;
-                  <span className="text-indigo-500">sanojan99@gmail.com</span>.
+                  <a href="mailto: sanojan99@gmail.com" className="text-indigo-500">sanojan99@gmail.com</a>.
                 </p>
                 {/* <div className="mt-4">
                   <button

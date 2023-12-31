@@ -41,7 +41,7 @@ function ProjectCard({
             <a href={githubLink} target="_blank" rel="noreferrer">
               <FiGithub
                 size="1.4em"
-                className="cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+                className="cursor-pointer transform hover:text-indigo-500  dark:hover:text-white transition-all duration-150"
               />
             </a>
           )}
@@ -49,7 +49,7 @@ function ProjectCard({
             <a href={liveLink} target="_blank" rel="noreferrer">
               <HiOutlineExternalLink
                 size="1.5em"
-                className=" cursor-pointer transform hover:-translate-y-2 transition-all duration-150"
+                className=" cursor-pointer transform  hover:text-indigo-500 dark:hover:text-white transition-all duration-150"
               />
             </a>
           )}
@@ -58,7 +58,7 @@ function ProjectCard({
           {techStack.map((item) => (
             <div
               key={item[0]}
-              className="p-0.5 px-3 text-xs font-light md:text-sm border-[1px] border-indigo-500 rounded-xl shadow-md cursor-pointer hover:text-indigo-500 dark:text-white"
+              className="bg-[#e5edff] text-[#6366f1]  dark:bg-[#352f78] font-normal  dark:text-indigo-300 p-0.5 px-3 text-xs font-light md:text-sm rounded-xl cursor-pointer dark:hover:text-indigo-500  hover:bg-[#c2d5ff]  dark:hover:text-indigo-200"
             >
               <a href={item[1]} target="_blank" rel="noreferrer">
                 {item[0]}

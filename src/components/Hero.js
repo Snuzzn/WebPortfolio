@@ -1,6 +1,11 @@
 import React from "react";
 import { ArrowDownIcon, ChevronDownIcon } from "@heroicons/react/outline";
 import { Link as ScrollLink } from "react-scroll";
+import { RiJavascriptFill } from "react-icons/ri";
+import { IoLogoCss3, IoLogoHtml5} from "react-icons/io5"
+import { LiaReact } from "react-icons/lia";
+import { IoLogoPython } from "react-icons/io5";
+
 
 function Hero() {
   return (
@@ -26,9 +31,18 @@ function Hero() {
       <div className="bg-gray-700 text-white  rounded-xl flex items-center gap-2 mt-4 py-2 px-4 md:py-4 md:px-8 md:mt-6  text-sm md:text-[1.1rem]  cursor-pointer drop-shadow-xl	 ">
         See my projects
         <ArrowDownIcon className="  h-4 w-4  animate-bounce " />
-        
       </div>
       </ScrollLink>
+
+
+      <div className="mt-8 flex items-center gap-4">
+        <IoLogoHtml5 color="#e15824" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
+        <IoLogoCss3 color="#3094c0" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
+        <RiJavascriptFill color="#f7e028" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
+        <LiaReact color="#15bfd6" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
+        <img alt="logo of python" src="/static/graphics/python-icon.svg" className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]" height="70px"/>
+
+      </div>
 
     </div>
   );
