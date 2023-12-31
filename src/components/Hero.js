@@ -60,7 +60,7 @@ function Hero() {
 export default Hero;
 
 const IconGroup = ({name, children}) =>   
-<div className="group flex flex-col items-center	">
+<div className="group flex flex-col items-center">
   {children}
-  <p className="opacity-0 group-hover:opacity-100  transition-opacity text-white">{name}</p>
+  <p className="opacity-0 group-hover:opacity-100  transition-opacity dark:text-white">{name}</p>
 </div>
