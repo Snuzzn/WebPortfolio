@@ -7,8 +7,8 @@ export default function ThemeContextProvider({ children }) {
 
   const toggleTheme = () => {
     if (theme === "light") {
-      setTheme("dark");
       document.documentElement.style.colorScheme = "dark"; 
+      setTheme("dark");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
 
@@ -29,10 +29,14 @@ export default function ThemeContextProvider({ children }) {
 
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark"; 
+
       }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark"; 
+
     }
   }, []);
 

@@ -58,7 +58,7 @@ function Modal({ setOpen, open }) {
               <div
                 className="relative bg-white inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl dark:bg-gray-900"
               >
-                <button className="absolute top-4 right-4 text-white" onClick={closeModal}>
+                <button className="absolute top-4 right-4 text-white" tabindex="-1" onClick={closeModal}>
                   <MdClose size="1.3em"/>
                 </button>
                 <div className="flex items-center space-x-2">
