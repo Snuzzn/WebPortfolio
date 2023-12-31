@@ -8,12 +8,12 @@ export default function ThemeSwitch() {
     const { theme, toggleTheme } = useTheme();
 
     const [playOn] = useSound(
-      '/sounds/switchOn.ogg',
+      '/static/sounds/switchOn.ogg',
       { volume: 0.25 }
     );
 
     const [playOff] = useSound(
-      '/sounds/switchOff.ogg',
+      '/static/sounds/switchOff.ogg',
       { volume: 0.25 }
     );
 

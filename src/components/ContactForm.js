@@ -42,25 +42,25 @@ function ContactForm({ setOpen }) {
   }
   return (
     <form className="flex flex-col mt-5 " onSubmit={sendEmail}>
-      <label for="user_name">Your Name:</label>
+      <label for="user_name" className="dark:text-gray-600">Your Name:</label>
       <input
-        className="rounded-lg p-2 mt-1 mb-5 border-2 border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent "
+        className="rounded-lg p-2 mt-1 mb-5 border-2 border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent  dark:bg-gray-700 dark:border-transparent dark:text-white"
         type="text"
         name="user_name"
         required
       />
-      <label for="user_email">Your Email:</label>
+      <label for="user_email" className="dark:text-gray-600">Your Email:</label>
       <input
         type="email"
         name="user_email"
         required
-        className="rounded-lg p-2 mt-1 mb-5 border-2  border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent "
+        className="rounded-lg p-2 mt-1 mb-5 border-2  border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:border-transparent dark:text-white"
       />
-      <label>Message:</label>
+      <label className="dark:text-gray-600">Message:</label>
       <textarea
         name="message"
         required
-        className="rounded-lg p-2 mt-1 mb-5 border-2 border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent "
+        className="rounded-lg p-2 mt-1 mb-5 border-2 border-gray-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:border-transparent dark:text-white"
       />
       {!send ? (
         <button  type="submit" className="rounded-lg text-white p-2 mb-5 bg-indigo-500 hover:bg-indigo-600 cursor-pointer focus:outline-none focus:ring focus:ring-indigo-500 focus:ring-offset-2 focus:border-transparent shadow-md">
