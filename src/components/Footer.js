@@ -6,7 +6,7 @@ function Footer() {
     <Fade>
       <hr className="m-auto w-20 mt-5 border-indigo-500 " />
       <div className="flex justify-center mt-3 dark:text-gray-300 pb-4">
-        <span className="text-sm">Built using </span>
+        <span className="text-sm">Built with </span>
         &nbsp;
         <a
           className="text-sm hover:text-indigo-500"

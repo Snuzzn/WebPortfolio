@@ -22,7 +22,7 @@ function ProjectCard({
     <Fade>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
         <div className="mt-4 mb-2  flex space-x-2 items-center ">
-          <Tooltip
+          {/* <Tooltip
             label={projectType}
             className="p-3 bg-gray-900 text-gray-100 border-none animate-fade "
           >
@@ -33,7 +33,7 @@ function ProjectCard({
                 <RiStackFill size="1.5em" className="text-gray-300" />
               )}
             </div>
-          </Tooltip>
+          </Tooltip> */}
           <div className="font-medium	 tracking-wide text-indigo-500 text-xl md:text-2xl pr-1">
             {title}
           </div>
