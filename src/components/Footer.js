@@ -10,6 +10,15 @@ function Footer() {
         &nbsp;
         <a
           className="text-sm hover:text-indigo-500"
+          href="https://react.dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          React ·
+        </a>
+        &nbsp;
+        <a
+          className="text-sm hover:text-indigo-500"
           href="https://www.gatsbyjs.com/"
           target="_blank"
           rel="noreferrer"
@@ -24,15 +33,6 @@ function Footer() {
           rel="noreferrer"
         >
           Tailwind CSS ·
-        </a>
-        &nbsp;
-        <a
-          className="text-sm hover:text-indigo-500"
-          href="https://particles.js.org/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Particles.js ·
         </a>
         &nbsp;
         <a
