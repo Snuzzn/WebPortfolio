@@ -36,12 +36,21 @@ function Hero() {
 
 
       <div className="mt-8 flex items-center gap-4">
-        <IoLogoHtml5 color="#e15824" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
-        <IoLogoCss3 color="#3094c0" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
-        <RiJavascriptFill color="#f7e028" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
-        <LiaReact color="#15bfd6" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
-        <img alt="logo of python" src="/static/graphics/python-icon.svg" className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]" height="70px"/>
-
+        <IconGroup name="HTML5" >
+          <IoLogoHtml5 color="#e15824" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
+        </IconGroup>
+        <IconGroup name="CSS3">
+          <IoLogoCss3 color="#3094c0" className="w-[2.8em] h-[2.8em] md:w-[4.47em] md:h-[4.47em]" />
+        </IconGroup>
+        <IconGroup name="JavaScript">
+          <RiJavascriptFill color="#f7e028" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
+        </IconGroup>
+        <IconGroup name="React">
+          <LiaReact color="#15bfd6" className="w-[3em] h-[3em] md:w-[5em] md:h-[5em]"/>
+        </IconGroup>
+        <IconGroup name="Python">
+          <img alt="logo of python" src="/static/graphics/python-icon.svg" className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]" height="70px"/>
+        </IconGroup>
       </div>
 
     </div>
@@ -49,3 +58,9 @@ function Hero() {
 }
 
 export default Hero;
+
+const IconGroup = ({name, children}) =>   
+<div className="group flex flex-col items-center	">
+  {children}
+  <p className="opacity-0 group-hover:opacity-100  transition-opacity text-white">{name}</p>
+</div>
