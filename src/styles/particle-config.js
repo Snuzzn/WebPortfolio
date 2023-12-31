@@ -292,7 +292,7 @@ const particleConfig = (isMobile) => ({
       },
     },
     color: {
-      value: '#84fff5',
+      value: '#C7D2FE',
       animation: {
         h: {
           count: 0,

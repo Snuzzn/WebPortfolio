@@ -53,14 +53,13 @@ function Modal({ setOpen, open }) {
               leaveTo="opacity-0 scale-95"
             >
               <div
-                className="bg-valhalla-midnight inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
-                style={{ backgroundColor: "#1E1E3A" }}
+                className="bg-white inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
               >
                 <div className="flex items-center space-x-2">
                   <BiMailSend size="1.5em" />
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-white"
+                    className="text-lg font-medium leading-6 dark:text-white"
                   >
                     Get in Touch!
                   </Dialog.Title>
@@ -69,7 +68,7 @@ function Modal({ setOpen, open }) {
                 <ContactForm setOpen={setOpen} />
                 <p className="text-sm text-gray-500">
                   You can also email me at &nbsp;
-                  <span className="text-teal-dark">sanojan99@gmail.com</span>.
+                  <span className="text-indigo-500">sanojan99@gmail.com</span>.
                 </p>
                 {/* <div className="mt-4">
                   <button

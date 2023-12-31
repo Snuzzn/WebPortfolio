@@ -1,8 +1,12 @@
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  mode: 'jit',
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      zIndex: {
+        '-10': '-10',
+      },
       blur: {
         xs: "4px",
       },
@@ -34,6 +38,7 @@ module.exports = {
         textShadow: {
           teal: "1px 1px 4px #31CEC5",
         },
+      
       },
       animation: {
         fade: "fadeIn 300ms ease-in",
@@ -59,4 +64,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  darkMode: 'class',
 };

@@ -28,13 +28,13 @@ function ProjectCard({
           >
             <div>
               {projectType === 'Frontend' ? (
-                <FaLaptopCode size="1.5em" className="text-gray-500 " />
+                <FaLaptopCode size="1.5em" className="text-gray-300 " />
               ) : (
-                <RiStackFill size="1.5em" className="text-gray-500" />
+                <RiStackFill size="1.5em" className="text-gray-300" />
               )}
             </div>
           </Tooltip>
-          <div className="font-light tracking-wide text-teal text-xl md:text-2xl pr-1">
+          <div className="font-medium	 tracking-wide text-indigo-500 text-xl md:text-2xl pr-1">
             {title}
           </div>
           {githubLink && (
@@ -58,7 +58,7 @@ function ProjectCard({
           {techStack.map((item) => (
             <div
               key={item[0]}
-              className="p-0.5 px-3 text-xs font-light md:text-sm  border border-teal rounded-xl shadow-lg cursor-pointer hover:text-teal hover:name"
+              className="p-0.5 px-3 text-xs font-light md:text-sm border-[1px] border-indigo-500 rounded-xl shadow-md cursor-pointer hover:text-indigo-500 dark:text-white"
             >
               <a href={item[1]} target="_blank" rel="noreferrer">
                 {item[0]}
@@ -77,7 +77,7 @@ function ProjectCard({
             loop={true}
           />
         </div>
-        <div className="mt-3 p-5 md:text-lg rounded-md  bg-valhalla-light shadow-2xl">
+        <div className="mt-3 p-5 md:text-lg rounded-md border-gray-200	border-[1px] shadow-md dark:border-gray-700 dark:text-white">
           {description}
         </div>
       </div>

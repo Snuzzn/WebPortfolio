@@ -15,8 +15,8 @@ function Header() {
   return (
     <>
       <div className="flex flex-col items-center">
-        <nav className="w-5/6 md:w-screen fixed z-10 bg-valhalla-blue bg-opacity-95  ">
-          <div className="mt-6  md:ml-6 space-x-5 flex flex-row  ">
+        <nav className="w-5/6 flex justify-center	z-10 fixed md:w-screen ">
+          <div className="bg-white filter bg-opacity-80 backdrop-filter backdrop-blur-2xl filter drop-shadow-lg	border-[1px] border-gray-300  border-opacity-40  mt-6 gap-2 md:ml-6 space-x-5 flex flex-row  px-10 rounded-[30px] pt-6 dark:bg-gray-800 dark:border-gray-700 dark:bg-opacity-75">
             <a
               href={"https://github.com/Snuzzn"}
               target="_blank"

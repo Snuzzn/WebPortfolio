@@ -28,12 +28,12 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
-    "react-particles-js": "^3.4.1",
     "react-player": "^2.9.0",
     "react-responsive": "^8.2.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.2",
     "react-toastify": "^7.0.4",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.2",
+    "use-sound": "^4.0.1"
   }
 }

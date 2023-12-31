@@ -4,12 +4,12 @@ import Fade from "react-reveal/Fade";
 function Footer() {
   return (
     <Fade>
-      <hr className="m-auto w-20 mt-5 border-teal" />
-      <div className="flex justify-center mt-3 mb-4 ">
+      <hr className="m-auto w-20 mt-5 border-indigo-500 " />
+      <div className="flex justify-center mt-3 dark:text-gray-300 pb-4">
         <span className="text-sm">Built using </span>
         &nbsp;
         <a
-          className="text-sm hover:text-teal"
+          className="text-sm hover:text-indigo-500"
           href="https://www.gatsbyjs.com/"
           target="_blank"
           rel="noreferrer"
@@ -18,7 +18,7 @@ function Footer() {
         </a>
         &nbsp;
         <a
-          className="text-sm hover:text-teal"
+          className="text-sm hover:text-indigo-500"
           href="https://tailwindcss.com/"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +27,7 @@ function Footer() {
         </a>
         &nbsp;
         <a
-          className="text-sm hover:text-teal"
+          className="text-sm hover:text-indigo-500"
           href="https://particles.js.org/"
           target="_blank"
           rel="noreferrer"
@@ -36,7 +36,7 @@ function Footer() {
         </a>
         &nbsp;
         <a
-          className="text-sm hover:text-teal"
+          className="text-sm hover:text-indigo-500"
           href="https://www.emailjs.com/"
           target="_blank"
           rel="noreferrer"

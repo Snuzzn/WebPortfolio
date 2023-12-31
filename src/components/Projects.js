@@ -12,20 +12,20 @@ function Projects() {
   return (
     <div className="flex flex-col items-center transition-all" id="projects">
       <Fade>
-        <div className="flex justify-between items-center w-5/6 md:w-4/6 max-w-screen-lg mt-3 mb-3 md:mb-6  filter drop-shadow-xl pb-3 border-b-2 border-valhalla-light ">
-          <div className="text-3xl md:text-4xl lg:text-5xl font-semibold">
+        <div className="flex justify-between items-center w-5/6 md:w-4/6 max-w-screen-lg mt-3 mb-3 md:mb-6   pb-3 border-b-2 dark:border-gray-500 ">
+          <div className="text-3xl md:text-4xl lg:text-5xl font-semibold dark:text-white">
             Projects
           </div>
-          <div className="flex flex-col md:flex-row gap-3 p-2 md:gap-4 border-valhalla-light md:border-2 rounded-md ">
+          <div className="flex flex-col md:flex-row gap-3 p-2 md:gap-4  md:border-2 rounded-md dark:border-gray-500">
             <button
-              className={`transition ease-in p-2 rounded-md w-24 text-center md:block w-full  ${
-                isPersonal && "bg-blue-600"}`} 
+              className={`transition ease-in p-2 rounded-md w-24 text-center md:block w-full dark:text-gray-300  ${
+                isPersonal && "bg-blue-600 text-white"}`} 
               onClick={handleToggle}
             >
               Personal
             </button>
             <button
-              className={`${!isPersonal && "bg-blue-600"} transition ease-in p-2 rounded-md w-32 text-center md:block `}
+              className={`${!isPersonal && "bg-blue-600 text-white"} transition ease-in p-2 rounded-md w-32 text-center md:block dark:text-gray-300 `}
               onClick={handleToggle}
             >
               Collaborative
