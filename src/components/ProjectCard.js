@@ -1,13 +1,9 @@
 import React from "react";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
-import { RiStackFill } from "react-icons/ri";
+import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { GlobeAltIcon } from "@heroicons/react/outline";
 import ReactPlayer from "react-player";
-import Fade from "react-reveal/Fade";
-import Tooltip, { useTooltip, TooltipPopup } from "@reach/tooltip";
 import "@reach/tooltip/styles.css";
+import { Zoom } from "react-reveal";
 
 function ProjectCard({
   title,
@@ -19,7 +15,7 @@ function ProjectCard({
   githubLink,
 }) {
   return (
-    <Fade>
+    <Zoom>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
         <div className="mt-4 mb-2  flex space-x-2 items-center ">
           {/* <Tooltip
@@ -81,7 +77,7 @@ function ProjectCard({
           {description}
         </div>
       </div>
-    </Fade>
+    </Zoom>
   );
 }
 

@@ -1,11 +1,11 @@
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  mode: 'jit',
+  mode: "jit",
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       zIndex: {
-        '-10': '-10',
+        "-10": "-10",
       },
       blur: {
         xs: "4px",
@@ -38,11 +38,11 @@ module.exports = {
         textShadow: {
           teal: "1px 1px 4px #31CEC5",
         },
-      
       },
       animation: {
         fade: "fadeIn 300ms ease-in",
         pulse: "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        slide: "slide 700ms ease-in",
       },
       keyframes: (theme) => ({
         fadeIn: {
@@ -57,6 +57,14 @@ module.exports = {
             opacity: 0.5,
           },
         },
+        slide: {
+          "0%": {
+            width: 0,
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
       }),
     },
   },
@@ -64,5 +72,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  darkMode: 'class',
+  darkMode: "class",
 };
