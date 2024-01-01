@@ -1,13 +1,13 @@
-import React from 'react';
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
-import { FaLaptopCode } from 'react-icons/fa';
-import { RiStackFill } from 'react-icons/ri';
-import { HiOutlineExternalLink } from 'react-icons/hi';
-import { GlobeAltIcon } from '@heroicons/react/outline';
-import ReactPlayer from 'react-player';
-import Fade from 'react-reveal/Fade';
-import Tooltip, { useTooltip, TooltipPopup } from '@reach/tooltip';
-import '@reach/tooltip/styles.css';
+import React from "react";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FaLaptopCode } from "react-icons/fa";
+import { RiStackFill } from "react-icons/ri";
+import { HiOutlineExternalLink } from "react-icons/hi";
+import { GlobeAltIcon } from "@heroicons/react/outline";
+import ReactPlayer from "react-player";
+import Fade from "react-reveal/Fade";
+import Tooltip, { useTooltip, TooltipPopup } from "@reach/tooltip";
+import "@reach/tooltip/styles.css";
 
 function ProjectCard({
   title,
@@ -66,13 +66,13 @@ function ProjectCard({
             </div>
           ))}
         </div>
-        <div style={{ position: 'relative', paddingTop: '56.25%' }}>
+        <div style={{ position: "relative", paddingTop: "56.25%" }}>
           <ReactPlayer
             controls={true}
             width="100%"
             height="100%"
             url={demoVidLink}
-            style={{ position: 'absolute', top: 0, left: 0 }}
+            style={{ position: "absolute", top: 0, left: 0 }}
             fallback="../public/tripCollabSS.png"
             loop={true}
           />

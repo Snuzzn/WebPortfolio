@@ -27,7 +27,7 @@ function Hero() {
         Software Developer
       </div>
       
-      <ScrollLink to="projects" smooth={true} duration={1000} offset={-85}>
+      <ScrollLink to="projects" smooth={true} duration={1000} offset={-120}>
       <div className="bg-gray-700 text-white  rounded-xl flex items-center gap-2 mt-4 py-2 px-4 md:py-4 md:px-8 md:mt-6  text-sm md:text-[1.1rem]  cursor-pointer drop-shadow-xl	 ">
         See my projects
         <ArrowDownIcon className="  h-4 w-4  animate-bounce " />
