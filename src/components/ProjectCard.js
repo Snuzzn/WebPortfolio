@@ -37,7 +37,7 @@ function ProjectCard({
             <a href={githubLink} target="_blank" rel="noreferrer">
               <FiGithub
                 size="1.4em"
-                className="cursor-pointer transform hover:text-indigo-500  dark:hover:text-white transition-all duration-150"
+                className="dark:text-gray-300 cursor-pointer transform hover:text-indigo-500  dark:hover:text-white transition-all duration-150"
               />
             </a>
           )}
@@ -45,7 +45,7 @@ function ProjectCard({
             <a href={liveLink} target="_blank" rel="noreferrer">
               <HiOutlineExternalLink
                 size="1.5em"
-                className=" cursor-pointer transform  hover:text-indigo-500 dark:hover:text-white transition-all duration-150"
+                className="dark:text-gray-300 cursor-pointer transform  hover:text-indigo-500 dark:hover:text-white transition-all duration-150"
               />
             </a>
           )}
