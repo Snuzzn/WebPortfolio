@@ -3,7 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import ReactPlayer from "react-player";
 import "@reach/tooltip/styles.css";
-import { Zoom } from "react-reveal";
+import { Fade, Zoom } from "react-reveal";
 
 function ProjectCard({
   title,
@@ -15,7 +15,7 @@ function ProjectCard({
   githubLink,
 }) {
   return (
-    <Zoom>
+    <Fade left>
       <div className="relative mb-10  flex flex-col w-5/6 md:w-4/6 max-w-screen-lg">
         <div className="mt-4 mb-2  flex space-x-2 items-center ">
           {/* <Tooltip
@@ -77,7 +77,7 @@ function ProjectCard({
           {description}
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 }
 
