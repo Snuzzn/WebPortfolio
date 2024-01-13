@@ -28,7 +28,7 @@ function Projects() {
             <button
               className={`${
                 !isPersonal && "bg-blue-600 text-white"
-              } transition ease-in p-2 rounded-md w-32 text-center md:block dark:text-gray-300 `}
+              } transition ease-in p-2 rounoded-md w-32 text-center md:block dark:text-gray-300 `}
               onClick={handleToggle}
             >
               Collaborative

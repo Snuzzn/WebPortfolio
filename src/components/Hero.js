@@ -8,7 +8,7 @@ import { LiaReact } from "react-icons/lia";
 function Hero() {
   return (
     <div className="relative z-0 flex flex-col h-screen justify-center items-center transition-all">
-      <div className="mb-2 md:mb-6 dark:text-white ">
+      <div className="mb-2 md:mb-6 dark:text-white  pt-[100px] sm">
         <span className="font-semibold text-5xl filter drop-shadow-xl sm:text-7xl lg:text-9xl">
           Hi, I'm&nbsp;
         </span>
@@ -31,7 +31,7 @@ function Hero() {
       <ScrollLink to="projects" smooth={true} duration={1000} offset={-120}>
         <div className="bg-gray-700 text-white  rounded-xl flex items-center gap-2 mt-4 py-2 px-4 md:py-4 md:px-8 md:mt-6  text-sm md:text-[1.1rem]  cursor-pointer drop-shadow-xl	 ">
           See my projects
-          <ArrowDownIcon className="  h-4 w-4  animate-bounce " />
+          <ArrowDownIcon className="h-4 w-4  animate-bounce " />
         </div>
       </ScrollLink>
 
