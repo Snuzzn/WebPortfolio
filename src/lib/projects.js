@@ -7,13 +7,10 @@ export const projects = {
         "An AI-powered math tutor that helps school students in a friendly manner, offering beautifully presented math explanations for their questions.",
       techStack: [
         ["React", "https://reactjs.org/"],
+        ["Next.js", "https://nextjs.org/"],
         ["Redux", "https://react-redux.js.org/"],
         ["FastAPI", "https://fastapi.tiangolo.com/"],
         ["MongoDB", "https://www.mongodb.com/"],
-        [
-          "ChatGPT",
-          "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
-        ],
       ],
       demoVidLink: "https://z5207855.wistia.com/medias/hc0li44gzw",
       liveLink: "https://tutorkeep.com",
