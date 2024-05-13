@@ -13,7 +13,7 @@
 
   html {
     scrollbar-width: thin;
-    scrollbar-color: #0f0e1b #212237;
+    /* scrollbar-color: #0f0e1b #212237; */
   }
   /* ::-webkit-scrollbar {
     width: 0.4rem;
