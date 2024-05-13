@@ -16,7 +16,7 @@ function Projects() {
           <div className=" text-3xl md:text-4xl lg:text-5xl font-semibold dark:text-white">
             Projects
           </div>
-          <div className=" flex flex-col md:flex-row gap-3 p-2 md:gap-4  md:border-2 rounded-lg dark:border-gray-500">
+          <div className=" flex flex-col md:flex-row gap-3 p-2 md:gap-4  border rounded-lg dark:border-gray-500">
             <button
               className={`w-full transition ease-in p-2 rounded-md md:w-24 text-center md:block w-full dark:text-gray-300  ${
                 isPersonal && "bg-blue-600 text-white"
@@ -28,7 +28,7 @@ function Projects() {
             <button
               className={`${
                 !isPersonal && "bg-blue-600 text-white"
-              } transition ease-in p-2 rounoded-md w-32 text-center md:block dark:text-gray-300 `}
+              } transition ease-in p-2 rounded-md w-32 text-center md:block dark:text-gray-300 `}
               onClick={handleToggle}
             >
               Collaborative

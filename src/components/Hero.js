@@ -25,11 +25,11 @@ function Hero() {
         </span>
       </div>
       <div className="text-[1.2rem] md:text-[1.5rem] lg:text-3xl text-center font-light tracking-wider dark:text-gray-400">
-        Software Developer
+        Software Engineer
       </div>
 
       <ScrollLink to="projects" smooth={true} duration={1000} offset={-120}>
-        <div className="bg-gray-700 text-white  rounded-xl flex items-center gap-2 mt-4 py-2 px-4 md:py-4 md:px-8 md:mt-6  text-sm md:text-[1.1rem]  cursor-pointer drop-shadow-xl	 ">
+        <div className="bg-gray-200 text-black  rounded-xl flex items-center gap-2 mt-4 py-2 px-4 md:py-4 md:px-8 md:mt-6  text-sm md:text-[1.1rem]  cursor-pointer drop-shadow-xl	 ">
           See my projects
           <ArrowDownIcon className="h-4 w-4  animate-bounce " />
         </div>
